@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%; /* Flexível para ocupar a tela */
+    max-width: 500px; /* Máximo de 500px */
+    height: auto; /* Ajusta a altura conforme o conteúdo */
+    display: flex; /* Adicionado para centralizar */
+    flex-direction: column; /* Organiza o conteúdo em coluna */
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    border: 1px solid #000;
+    border-radius: 20px;
+    margin: 0 auto; /* Centraliza a div na tela */
+    margin-top: 50px;
+    padding: 20px; /* Maior espaçamento interno */
+}
+
+.form {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: flex wrap; /* Organiza inputs em coluna */
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px; /* Adicionado para distanciar do conteúdo */
+}
+
+.table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    margin-top: 50px; /* Margem maior para distanciar a tabela */
+}
+
+.table th, .table td {
+    border: 1px solid #000;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
